@@ -1,4 +1,8 @@
 # rancher-installation-helm
+### Make sure to install cert-manager and nginx-controller
+https://github.com/thedevopsguru1/deploy-ingress-controller-tls-certificate
+## Install Rancher
+
 ```
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 ```
