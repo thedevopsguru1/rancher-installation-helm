@@ -13,7 +13,7 @@ kubectl create namespace cattle-system
 ### IF you use nginx controller
 ### Run this and use the ingress above to make it work properly
 ```
-helm upgrade --install rancher rancher-latest/rancher --namespace cattle-system --set hostname=app.anaeleboo.com --set bootstrapPassword=admin --set ingress.tls.source=letsEncrypt --set letsEncrypt.email=ananae@ex.org --set letsEncrypt.ingress.class=nginx --set ingress.ingressClassName=nginx
+helm upgrade --install rancher rancher-latest/rancher --namespace cattle-system --set hostname=rancher.anaeleboo.com --set bootstrapPassword=admin --set ingress.tls.source=letsEncrypt --set letsEncrypt.email=ananae@ex.org --set letsEncrypt.ingress.class=nginx --set ingress.ingressClassName=nginx
 
 ```
 
