@@ -15,3 +15,5 @@ helm upgrade --install rancher rancher-latest/rancher --namespace cattle-system 
 
 ```
 
+## If running into error : use this 
+https://github.com/thedevopsguru1/rancher-local-helm
